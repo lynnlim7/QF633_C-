@@ -7,4 +7,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 add_executable(lect_1 lect_1.cpp)
-
+add_executable(data_types data_types.cpp)
+add_executable(array array.cpp)
+add_executable(pointer pointer.cpp)
+add_executable(struct struct.cpp)
+add_executable(class class.cpp)
+add_executable(enum enum.cpp)
+add_executable(const_example const_example.cpp)
+add_executable(io_example io_example.cpp)
+add_executable(error_handling error_handling.cpp)
+add_executable(assignment_1 assignment_1.cpp)
