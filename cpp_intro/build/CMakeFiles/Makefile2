@@ -64,10 +64,30 @@ CMAKE_BINARY_DIR = /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/buil
 
 # The main recursive "all" target.
 all: CMakeFiles/lect_1.dir/all
+all: CMakeFiles/data_types.dir/all
+all: CMakeFiles/array.dir/all
+all: CMakeFiles/pointer.dir/all
+all: CMakeFiles/struct.dir/all
+all: CMakeFiles/class.dir/all
+all: CMakeFiles/enum.dir/all
+all: CMakeFiles/const_example.dir/all
+all: CMakeFiles/io_example.dir/all
+all: CMakeFiles/error_handling.dir/all
+all: CMakeFiles/assignment_1.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/lect_1.dir/codegen
+codegen: CMakeFiles/data_types.dir/codegen
+codegen: CMakeFiles/array.dir/codegen
+codegen: CMakeFiles/pointer.dir/codegen
+codegen: CMakeFiles/struct.dir/codegen
+codegen: CMakeFiles/class.dir/codegen
+codegen: CMakeFiles/enum.dir/codegen
+codegen: CMakeFiles/const_example.dir/codegen
+codegen: CMakeFiles/io_example.dir/codegen
+codegen: CMakeFiles/error_handling.dir/codegen
+codegen: CMakeFiles/assignment_1.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +96,16 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/lect_1.dir/clean
+clean: CMakeFiles/data_types.dir/clean
+clean: CMakeFiles/array.dir/clean
+clean: CMakeFiles/pointer.dir/clean
+clean: CMakeFiles/struct.dir/clean
+clean: CMakeFiles/class.dir/clean
+clean: CMakeFiles/enum.dir/clean
+clean: CMakeFiles/const_example.dir/clean
+clean: CMakeFiles/io_example.dir/clean
+clean: CMakeFiles/error_handling.dir/clean
+clean: CMakeFiles/assignment_1.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +115,7 @@ clean: CMakeFiles/lect_1.dir/clean
 CMakeFiles/lect_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lect_1.dir/build.make CMakeFiles/lect_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lect_1.dir/build.make CMakeFiles/lect_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=1,2 "Built target lect_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=17,18 "Built target lect_1"
 .PHONY : CMakeFiles/lect_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -102,13 +132,333 @@ lect_1: CMakeFiles/lect_1.dir/rule
 # codegen rule for target.
 CMakeFiles/lect_1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lect_1.dir/build.make CMakeFiles/lect_1.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=1,2 "Finished codegen for target lect_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=17,18 "Finished codegen for target lect_1"
 .PHONY : CMakeFiles/lect_1.dir/codegen
 
 # clean rule for target.
 CMakeFiles/lect_1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lect_1.dir/build.make CMakeFiles/lect_1.dir/clean
 .PHONY : CMakeFiles/lect_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/data_types.dir
+
+# All Build rule for target.
+CMakeFiles/data_types.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=9,10 "Built target data_types"
+.PHONY : CMakeFiles/data_types.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/data_types.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/data_types.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/data_types.dir/rule
+
+# Convenience name for target.
+data_types: CMakeFiles/data_types.dir/rule
+.PHONY : data_types
+
+# codegen rule for target.
+CMakeFiles/data_types.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=9,10 "Finished codegen for target data_types"
+.PHONY : CMakeFiles/data_types.dir/codegen
+
+# clean rule for target.
+CMakeFiles/data_types.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/clean
+.PHONY : CMakeFiles/data_types.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/array.dir
+
+# All Build rule for target.
+CMakeFiles/array.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=1,2 "Built target array"
+.PHONY : CMakeFiles/array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/array.dir/rule
+
+# Convenience name for target.
+array: CMakeFiles/array.dir/rule
+.PHONY : array
+
+# codegen rule for target.
+CMakeFiles/array.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=1,2 "Finished codegen for target array"
+.PHONY : CMakeFiles/array.dir/codegen
+
+# clean rule for target.
+CMakeFiles/array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/clean
+.PHONY : CMakeFiles/array.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer.dir
+
+# All Build rule for target.
+CMakeFiles/pointer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=19,20 "Built target pointer"
+.PHONY : CMakeFiles/pointer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/pointer.dir/rule
+
+# Convenience name for target.
+pointer: CMakeFiles/pointer.dir/rule
+.PHONY : pointer
+
+# codegen rule for target.
+CMakeFiles/pointer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=19,20 "Finished codegen for target pointer"
+.PHONY : CMakeFiles/pointer.dir/codegen
+
+# clean rule for target.
+CMakeFiles/pointer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/clean
+.PHONY : CMakeFiles/pointer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/struct.dir
+
+# All Build rule for target.
+CMakeFiles/struct.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=21,22 "Built target struct"
+.PHONY : CMakeFiles/struct.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/struct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/struct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/struct.dir/rule
+
+# Convenience name for target.
+struct: CMakeFiles/struct.dir/rule
+.PHONY : struct
+
+# codegen rule for target.
+CMakeFiles/struct.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=21,22 "Finished codegen for target struct"
+.PHONY : CMakeFiles/struct.dir/codegen
+
+# clean rule for target.
+CMakeFiles/struct.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/clean
+.PHONY : CMakeFiles/struct.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/class.dir
+
+# All Build rule for target.
+CMakeFiles/class.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=5,6 "Built target class"
+.PHONY : CMakeFiles/class.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/class.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/class.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/class.dir/rule
+
+# Convenience name for target.
+class: CMakeFiles/class.dir/rule
+.PHONY : class
+
+# codegen rule for target.
+CMakeFiles/class.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=5,6 "Finished codegen for target class"
+.PHONY : CMakeFiles/class.dir/codegen
+
+# clean rule for target.
+CMakeFiles/class.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/clean
+.PHONY : CMakeFiles/class.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/enum.dir
+
+# All Build rule for target.
+CMakeFiles/enum.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=11,12 "Built target enum"
+.PHONY : CMakeFiles/enum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/enum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/enum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/enum.dir/rule
+
+# Convenience name for target.
+enum: CMakeFiles/enum.dir/rule
+.PHONY : enum
+
+# codegen rule for target.
+CMakeFiles/enum.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=11,12 "Finished codegen for target enum"
+.PHONY : CMakeFiles/enum.dir/codegen
+
+# clean rule for target.
+CMakeFiles/enum.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/clean
+.PHONY : CMakeFiles/enum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/const_example.dir
+
+# All Build rule for target.
+CMakeFiles/const_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=7,8 "Built target const_example"
+.PHONY : CMakeFiles/const_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/const_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/const_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/const_example.dir/rule
+
+# Convenience name for target.
+const_example: CMakeFiles/const_example.dir/rule
+.PHONY : const_example
+
+# codegen rule for target.
+CMakeFiles/const_example.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=7,8 "Finished codegen for target const_example"
+.PHONY : CMakeFiles/const_example.dir/codegen
+
+# clean rule for target.
+CMakeFiles/const_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/clean
+.PHONY : CMakeFiles/const_example.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/io_example.dir
+
+# All Build rule for target.
+CMakeFiles/io_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=15,16 "Built target io_example"
+.PHONY : CMakeFiles/io_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/io_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/io_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/io_example.dir/rule
+
+# Convenience name for target.
+io_example: CMakeFiles/io_example.dir/rule
+.PHONY : io_example
+
+# codegen rule for target.
+CMakeFiles/io_example.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=15,16 "Finished codegen for target io_example"
+.PHONY : CMakeFiles/io_example.dir/codegen
+
+# clean rule for target.
+CMakeFiles/io_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/clean
+.PHONY : CMakeFiles/io_example.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/error_handling.dir
+
+# All Build rule for target.
+CMakeFiles/error_handling.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=13,14 "Built target error_handling"
+.PHONY : CMakeFiles/error_handling.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/error_handling.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/error_handling.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/error_handling.dir/rule
+
+# Convenience name for target.
+error_handling: CMakeFiles/error_handling.dir/rule
+.PHONY : error_handling
+
+# codegen rule for target.
+CMakeFiles/error_handling.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=13,14 "Finished codegen for target error_handling"
+.PHONY : CMakeFiles/error_handling.dir/codegen
+
+# clean rule for target.
+CMakeFiles/error_handling.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/clean
+.PHONY : CMakeFiles/error_handling.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/assignment_1.dir
+
+# All Build rule for target.
+CMakeFiles/assignment_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=3,4 "Built target assignment_1"
+.PHONY : CMakeFiles/assignment_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/assignment_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/assignment_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles 0
+.PHONY : CMakeFiles/assignment_1.dir/rule
+
+# Convenience name for target.
+assignment_1: CMakeFiles/assignment_1.dir/rule
+.PHONY : assignment_1
+
+# codegen rule for target.
+CMakeFiles/assignment_1.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles --progress-num=3,4 "Finished codegen for target assignment_1"
+.PHONY : CMakeFiles/assignment_1.dir/codegen
+
+# clean rule for target.
+CMakeFiles/assignment_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/clean
+.PHONY : CMakeFiles/assignment_1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

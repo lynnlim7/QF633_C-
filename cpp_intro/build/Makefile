@@ -129,6 +129,328 @@ lect_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lect_1.dir/build.make CMakeFiles/lect_1.dir/build
 .PHONY : lect_1/fast
 
+#=============================================================================
+# Target rules for targets named data_types
+
+# Build rule for target.
+data_types: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_types
+.PHONY : data_types
+
+# fast build rule for target.
+data_types/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/build
+.PHONY : data_types/fast
+
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named pointer
+
+# Build rule for target.
+pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointer
+.PHONY : pointer
+
+# fast build rule for target.
+pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/build
+.PHONY : pointer/fast
+
+#=============================================================================
+# Target rules for targets named struct
+
+# Build rule for target.
+struct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 struct
+.PHONY : struct
+
+# fast build rule for target.
+struct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
+.PHONY : struct/fast
+
+#=============================================================================
+# Target rules for targets named class
+
+# Build rule for target.
+class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class
+.PHONY : class
+
+# fast build rule for target.
+class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/build
+.PHONY : class/fast
+
+#=============================================================================
+# Target rules for targets named enum
+
+# Build rule for target.
+enum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enum
+.PHONY : enum
+
+# fast build rule for target.
+enum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/build
+.PHONY : enum/fast
+
+#=============================================================================
+# Target rules for targets named const_example
+
+# Build rule for target.
+const_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 const_example
+.PHONY : const_example
+
+# fast build rule for target.
+const_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/build
+.PHONY : const_example/fast
+
+#=============================================================================
+# Target rules for targets named io_example
+
+# Build rule for target.
+io_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 io_example
+.PHONY : io_example
+
+# fast build rule for target.
+io_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/build
+.PHONY : io_example/fast
+
+#=============================================================================
+# Target rules for targets named error_handling
+
+# Build rule for target.
+error_handling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 error_handling
+.PHONY : error_handling
+
+# fast build rule for target.
+error_handling/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/build
+.PHONY : error_handling/fast
+
+#=============================================================================
+# Target rules for targets named assignment_1
+
+# Build rule for target.
+assignment_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment_1
+.PHONY : assignment_1
+
+# fast build rule for target.
+assignment_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/build
+.PHONY : assignment_1/fast
+
+array.o: array.cpp.o
+.PHONY : array.o
+
+# target to build an object file
+array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/array.cpp.o
+.PHONY : array.cpp.o
+
+array.i: array.cpp.i
+.PHONY : array.i
+
+# target to preprocess a source file
+array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/array.cpp.i
+.PHONY : array.cpp.i
+
+array.s: array.cpp.s
+.PHONY : array.s
+
+# target to generate assembly for a file
+array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/array.cpp.s
+.PHONY : array.cpp.s
+
+assignment_1.o: assignment_1.cpp.o
+.PHONY : assignment_1.o
+
+# target to build an object file
+assignment_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/assignment_1.cpp.o
+.PHONY : assignment_1.cpp.o
+
+assignment_1.i: assignment_1.cpp.i
+.PHONY : assignment_1.i
+
+# target to preprocess a source file
+assignment_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/assignment_1.cpp.i
+.PHONY : assignment_1.cpp.i
+
+assignment_1.s: assignment_1.cpp.s
+.PHONY : assignment_1.s
+
+# target to generate assembly for a file
+assignment_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/assignment_1.cpp.s
+.PHONY : assignment_1.cpp.s
+
+class.o: class.cpp.o
+.PHONY : class.o
+
+# target to build an object file
+class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/class.cpp.o
+.PHONY : class.cpp.o
+
+class.i: class.cpp.i
+.PHONY : class.i
+
+# target to preprocess a source file
+class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/class.cpp.i
+.PHONY : class.cpp.i
+
+class.s: class.cpp.s
+.PHONY : class.s
+
+# target to generate assembly for a file
+class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class.dir/build.make CMakeFiles/class.dir/class.cpp.s
+.PHONY : class.cpp.s
+
+const_example.o: const_example.cpp.o
+.PHONY : const_example.o
+
+# target to build an object file
+const_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/const_example.cpp.o
+.PHONY : const_example.cpp.o
+
+const_example.i: const_example.cpp.i
+.PHONY : const_example.i
+
+# target to preprocess a source file
+const_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/const_example.cpp.i
+.PHONY : const_example.cpp.i
+
+const_example.s: const_example.cpp.s
+.PHONY : const_example.s
+
+# target to generate assembly for a file
+const_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const_example.dir/build.make CMakeFiles/const_example.dir/const_example.cpp.s
+.PHONY : const_example.cpp.s
+
+data_types.o: data_types.cpp.o
+.PHONY : data_types.o
+
+# target to build an object file
+data_types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/data_types.cpp.o
+.PHONY : data_types.cpp.o
+
+data_types.i: data_types.cpp.i
+.PHONY : data_types.i
+
+# target to preprocess a source file
+data_types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/data_types.cpp.i
+.PHONY : data_types.cpp.i
+
+data_types.s: data_types.cpp.s
+.PHONY : data_types.s
+
+# target to generate assembly for a file
+data_types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/data_types.cpp.s
+.PHONY : data_types.cpp.s
+
+enum.o: enum.cpp.o
+.PHONY : enum.o
+
+# target to build an object file
+enum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/enum.cpp.o
+.PHONY : enum.cpp.o
+
+enum.i: enum.cpp.i
+.PHONY : enum.i
+
+# target to preprocess a source file
+enum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/enum.cpp.i
+.PHONY : enum.cpp.i
+
+enum.s: enum.cpp.s
+.PHONY : enum.s
+
+# target to generate assembly for a file
+enum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/enum.cpp.s
+.PHONY : enum.cpp.s
+
+error_handling.o: error_handling.cpp.o
+.PHONY : error_handling.o
+
+# target to build an object file
+error_handling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/error_handling.cpp.o
+.PHONY : error_handling.cpp.o
+
+error_handling.i: error_handling.cpp.i
+.PHONY : error_handling.i
+
+# target to preprocess a source file
+error_handling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/error_handling.cpp.i
+.PHONY : error_handling.cpp.i
+
+error_handling.s: error_handling.cpp.s
+.PHONY : error_handling.s
+
+# target to generate assembly for a file
+error_handling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/error_handling.dir/build.make CMakeFiles/error_handling.dir/error_handling.cpp.s
+.PHONY : error_handling.cpp.s
+
+io_example.o: io_example.cpp.o
+.PHONY : io_example.o
+
+# target to build an object file
+io_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/io_example.cpp.o
+.PHONY : io_example.cpp.o
+
+io_example.i: io_example.cpp.i
+.PHONY : io_example.i
+
+# target to preprocess a source file
+io_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/io_example.cpp.i
+.PHONY : io_example.cpp.i
+
+io_example.s: io_example.cpp.s
+.PHONY : io_example.s
+
+# target to generate assembly for a file
+io_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/io_example.dir/build.make CMakeFiles/io_example.dir/io_example.cpp.s
+.PHONY : io_example.cpp.s
+
 lect_1.o: lect_1.cpp.o
 .PHONY : lect_1.o
 
@@ -153,6 +475,54 @@ lect_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lect_1.dir/build.make CMakeFiles/lect_1.dir/lect_1.cpp.s
 .PHONY : lect_1.cpp.s
 
+pointer.o: pointer.cpp.o
+.PHONY : pointer.o
+
+# target to build an object file
+pointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.cpp.o
+.PHONY : pointer.cpp.o
+
+pointer.i: pointer.cpp.i
+.PHONY : pointer.i
+
+# target to preprocess a source file
+pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.cpp.i
+.PHONY : pointer.cpp.i
+
+pointer.s: pointer.cpp.s
+.PHONY : pointer.s
+
+# target to generate assembly for a file
+pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.cpp.s
+.PHONY : pointer.cpp.s
+
+struct.o: struct.cpp.o
+.PHONY : struct.o
+
+# target to build an object file
+struct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/struct.cpp.o
+.PHONY : struct.cpp.o
+
+struct.i: struct.cpp.i
+.PHONY : struct.i
+
+# target to preprocess a source file
+struct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/struct.cpp.i
+.PHONY : struct.cpp.i
+
+struct.s: struct.cpp.s
+.PHONY : struct.s
+
+# target to generate assembly for a file
+struct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/struct.cpp.s
+.PHONY : struct.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +531,50 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... array"
+	@echo "... assignment_1"
+	@echo "... class"
+	@echo "... const_example"
+	@echo "... data_types"
+	@echo "... enum"
+	@echo "... error_handling"
+	@echo "... io_example"
 	@echo "... lect_1"
+	@echo "... pointer"
+	@echo "... struct"
+	@echo "... array.o"
+	@echo "... array.i"
+	@echo "... array.s"
+	@echo "... assignment_1.o"
+	@echo "... assignment_1.i"
+	@echo "... assignment_1.s"
+	@echo "... class.o"
+	@echo "... class.i"
+	@echo "... class.s"
+	@echo "... const_example.o"
+	@echo "... const_example.i"
+	@echo "... const_example.s"
+	@echo "... data_types.o"
+	@echo "... data_types.i"
+	@echo "... data_types.s"
+	@echo "... enum.o"
+	@echo "... enum.i"
+	@echo "... enum.s"
+	@echo "... error_handling.o"
+	@echo "... error_handling.i"
+	@echo "... error_handling.s"
+	@echo "... io_example.o"
+	@echo "... io_example.i"
+	@echo "... io_example.s"
 	@echo "... lect_1.o"
 	@echo "... lect_1.i"
 	@echo "... lect_1.s"
+	@echo "... pointer.o"
+	@echo "... pointer.i"
+	@echo "... pointer.s"
+	@echo "... struct.o"
+	@echo "... struct.i"
+	@echo "... struct.s"
 .PHONY : help
 
 

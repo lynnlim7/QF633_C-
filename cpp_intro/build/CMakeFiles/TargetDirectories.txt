@@ -1,3 +1,13 @@
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/lect_1.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/data_types.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/array.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/pointer.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/struct.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/class.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/enum.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/const_example.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/io_example.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/error_handling.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/assignment_1.dir
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/edit_cache.dir
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/rebuild_cache.dir
