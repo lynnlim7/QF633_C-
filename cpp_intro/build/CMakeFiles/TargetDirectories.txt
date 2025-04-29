@@ -9,5 +9,11 @@
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/io_example.dir
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/error_handling.dir
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/assignment_1.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/passing_by_value_or_reference.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/return_value.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/return_pointer.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/std_vector.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/return_reference.dir
+/Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/default_value_param.dir
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/edit_cache.dir
 /Users/Lynn/Documents/smu_mqf/term_3/QF633_CPP/cpp_intro/build/CMakeFiles/rebuild_cache.dir

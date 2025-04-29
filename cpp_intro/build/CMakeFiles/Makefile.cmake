@@ -67,4 +67,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/io_example.dir/DependInfo.cmake"
   "CMakeFiles/error_handling.dir/DependInfo.cmake"
   "CMakeFiles/assignment_1.dir/DependInfo.cmake"
+  "CMakeFiles/passing_by_value_or_reference.dir/DependInfo.cmake"
+  "CMakeFiles/return_value.dir/DependInfo.cmake"
+  "CMakeFiles/return_pointer.dir/DependInfo.cmake"
+  "CMakeFiles/std_vector.dir/DependInfo.cmake"
+  "CMakeFiles/return_reference.dir/DependInfo.cmake"
+  "CMakeFiles/default_value_param.dir/DependInfo.cmake"
   )

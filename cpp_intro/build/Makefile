@@ -259,6 +259,84 @@ assignment_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment_1.dir/build.make CMakeFiles/assignment_1.dir/build
 .PHONY : assignment_1/fast
 
+#=============================================================================
+# Target rules for targets named passing_by_value_or_reference
+
+# Build rule for target.
+passing_by_value_or_reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 passing_by_value_or_reference
+.PHONY : passing_by_value_or_reference
+
+# fast build rule for target.
+passing_by_value_or_reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/passing_by_value_or_reference.dir/build.make CMakeFiles/passing_by_value_or_reference.dir/build
+.PHONY : passing_by_value_or_reference/fast
+
+#=============================================================================
+# Target rules for targets named return_value
+
+# Build rule for target.
+return_value: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 return_value
+.PHONY : return_value
+
+# fast build rule for target.
+return_value/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_value.dir/build.make CMakeFiles/return_value.dir/build
+.PHONY : return_value/fast
+
+#=============================================================================
+# Target rules for targets named return_pointer
+
+# Build rule for target.
+return_pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 return_pointer
+.PHONY : return_pointer
+
+# fast build rule for target.
+return_pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_pointer.dir/build.make CMakeFiles/return_pointer.dir/build
+.PHONY : return_pointer/fast
+
+#=============================================================================
+# Target rules for targets named std_vector
+
+# Build rule for target.
+std_vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 std_vector
+.PHONY : std_vector
+
+# fast build rule for target.
+std_vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std_vector.dir/build.make CMakeFiles/std_vector.dir/build
+.PHONY : std_vector/fast
+
+#=============================================================================
+# Target rules for targets named return_reference
+
+# Build rule for target.
+return_reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 return_reference
+.PHONY : return_reference
+
+# fast build rule for target.
+return_reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_reference.dir/build.make CMakeFiles/return_reference.dir/build
+.PHONY : return_reference/fast
+
+#=============================================================================
+# Target rules for targets named default_value_param
+
+# Build rule for target.
+default_value_param: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 default_value_param
+.PHONY : default_value_param
+
+# fast build rule for target.
+default_value_param/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/default_value_param.dir/build.make CMakeFiles/default_value_param.dir/build
+.PHONY : default_value_param/fast
+
 array.o: array.cpp.o
 .PHONY : array.o
 
@@ -379,6 +457,30 @@ data_types.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_types.dir/build.make CMakeFiles/data_types.dir/data_types.cpp.s
 .PHONY : data_types.cpp.s
 
+default_value_param.o: default_value_param.cpp.o
+.PHONY : default_value_param.o
+
+# target to build an object file
+default_value_param.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/default_value_param.dir/build.make CMakeFiles/default_value_param.dir/default_value_param.cpp.o
+.PHONY : default_value_param.cpp.o
+
+default_value_param.i: default_value_param.cpp.i
+.PHONY : default_value_param.i
+
+# target to preprocess a source file
+default_value_param.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/default_value_param.dir/build.make CMakeFiles/default_value_param.dir/default_value_param.cpp.i
+.PHONY : default_value_param.cpp.i
+
+default_value_param.s: default_value_param.cpp.s
+.PHONY : default_value_param.s
+
+# target to generate assembly for a file
+default_value_param.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/default_value_param.dir/build.make CMakeFiles/default_value_param.dir/default_value_param.cpp.s
+.PHONY : default_value_param.cpp.s
+
 enum.o: enum.cpp.o
 .PHONY : enum.o
 
@@ -475,6 +577,30 @@ lect_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lect_1.dir/build.make CMakeFiles/lect_1.dir/lect_1.cpp.s
 .PHONY : lect_1.cpp.s
 
+passing_by_value_or_reference.o: passing_by_value_or_reference.cpp.o
+.PHONY : passing_by_value_or_reference.o
+
+# target to build an object file
+passing_by_value_or_reference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/passing_by_value_or_reference.dir/build.make CMakeFiles/passing_by_value_or_reference.dir/passing_by_value_or_reference.cpp.o
+.PHONY : passing_by_value_or_reference.cpp.o
+
+passing_by_value_or_reference.i: passing_by_value_or_reference.cpp.i
+.PHONY : passing_by_value_or_reference.i
+
+# target to preprocess a source file
+passing_by_value_or_reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/passing_by_value_or_reference.dir/build.make CMakeFiles/passing_by_value_or_reference.dir/passing_by_value_or_reference.cpp.i
+.PHONY : passing_by_value_or_reference.cpp.i
+
+passing_by_value_or_reference.s: passing_by_value_or_reference.cpp.s
+.PHONY : passing_by_value_or_reference.s
+
+# target to generate assembly for a file
+passing_by_value_or_reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/passing_by_value_or_reference.dir/build.make CMakeFiles/passing_by_value_or_reference.dir/passing_by_value_or_reference.cpp.s
+.PHONY : passing_by_value_or_reference.cpp.s
+
 pointer.o: pointer.cpp.o
 .PHONY : pointer.o
 
@@ -498,6 +624,102 @@ pointer.s: pointer.cpp.s
 pointer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointer.dir/build.make CMakeFiles/pointer.dir/pointer.cpp.s
 .PHONY : pointer.cpp.s
+
+return_pointer.o: return_pointer.cpp.o
+.PHONY : return_pointer.o
+
+# target to build an object file
+return_pointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_pointer.dir/build.make CMakeFiles/return_pointer.dir/return_pointer.cpp.o
+.PHONY : return_pointer.cpp.o
+
+return_pointer.i: return_pointer.cpp.i
+.PHONY : return_pointer.i
+
+# target to preprocess a source file
+return_pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_pointer.dir/build.make CMakeFiles/return_pointer.dir/return_pointer.cpp.i
+.PHONY : return_pointer.cpp.i
+
+return_pointer.s: return_pointer.cpp.s
+.PHONY : return_pointer.s
+
+# target to generate assembly for a file
+return_pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_pointer.dir/build.make CMakeFiles/return_pointer.dir/return_pointer.cpp.s
+.PHONY : return_pointer.cpp.s
+
+return_reference.o: return_reference.cpp.o
+.PHONY : return_reference.o
+
+# target to build an object file
+return_reference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_reference.dir/build.make CMakeFiles/return_reference.dir/return_reference.cpp.o
+.PHONY : return_reference.cpp.o
+
+return_reference.i: return_reference.cpp.i
+.PHONY : return_reference.i
+
+# target to preprocess a source file
+return_reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_reference.dir/build.make CMakeFiles/return_reference.dir/return_reference.cpp.i
+.PHONY : return_reference.cpp.i
+
+return_reference.s: return_reference.cpp.s
+.PHONY : return_reference.s
+
+# target to generate assembly for a file
+return_reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_reference.dir/build.make CMakeFiles/return_reference.dir/return_reference.cpp.s
+.PHONY : return_reference.cpp.s
+
+return_value.o: return_value.cpp.o
+.PHONY : return_value.o
+
+# target to build an object file
+return_value.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_value.dir/build.make CMakeFiles/return_value.dir/return_value.cpp.o
+.PHONY : return_value.cpp.o
+
+return_value.i: return_value.cpp.i
+.PHONY : return_value.i
+
+# target to preprocess a source file
+return_value.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_value.dir/build.make CMakeFiles/return_value.dir/return_value.cpp.i
+.PHONY : return_value.cpp.i
+
+return_value.s: return_value.cpp.s
+.PHONY : return_value.s
+
+# target to generate assembly for a file
+return_value.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/return_value.dir/build.make CMakeFiles/return_value.dir/return_value.cpp.s
+.PHONY : return_value.cpp.s
+
+std_vector.o: std_vector.cpp.o
+.PHONY : std_vector.o
+
+# target to build an object file
+std_vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std_vector.dir/build.make CMakeFiles/std_vector.dir/std_vector.cpp.o
+.PHONY : std_vector.cpp.o
+
+std_vector.i: std_vector.cpp.i
+.PHONY : std_vector.i
+
+# target to preprocess a source file
+std_vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std_vector.dir/build.make CMakeFiles/std_vector.dir/std_vector.cpp.i
+.PHONY : std_vector.cpp.i
+
+std_vector.s: std_vector.cpp.s
+.PHONY : std_vector.s
+
+# target to generate assembly for a file
+std_vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/std_vector.dir/build.make CMakeFiles/std_vector.dir/std_vector.cpp.s
+.PHONY : std_vector.cpp.s
 
 struct.o: struct.cpp.o
 .PHONY : struct.o
@@ -536,11 +758,17 @@ help:
 	@echo "... class"
 	@echo "... const_example"
 	@echo "... data_types"
+	@echo "... default_value_param"
 	@echo "... enum"
 	@echo "... error_handling"
 	@echo "... io_example"
 	@echo "... lect_1"
+	@echo "... passing_by_value_or_reference"
 	@echo "... pointer"
+	@echo "... return_pointer"
+	@echo "... return_reference"
+	@echo "... return_value"
+	@echo "... std_vector"
 	@echo "... struct"
 	@echo "... array.o"
 	@echo "... array.i"
@@ -557,6 +785,9 @@ help:
 	@echo "... data_types.o"
 	@echo "... data_types.i"
 	@echo "... data_types.s"
+	@echo "... default_value_param.o"
+	@echo "... default_value_param.i"
+	@echo "... default_value_param.s"
 	@echo "... enum.o"
 	@echo "... enum.i"
 	@echo "... enum.s"
@@ -569,9 +800,24 @@ help:
 	@echo "... lect_1.o"
 	@echo "... lect_1.i"
 	@echo "... lect_1.s"
+	@echo "... passing_by_value_or_reference.o"
+	@echo "... passing_by_value_or_reference.i"
+	@echo "... passing_by_value_or_reference.s"
 	@echo "... pointer.o"
 	@echo "... pointer.i"
 	@echo "... pointer.s"
+	@echo "... return_pointer.o"
+	@echo "... return_pointer.i"
+	@echo "... return_pointer.s"
+	@echo "... return_reference.o"
+	@echo "... return_reference.i"
+	@echo "... return_reference.s"
+	@echo "... return_value.o"
+	@echo "... return_value.i"
+	@echo "... return_value.s"
+	@echo "... std_vector.o"
+	@echo "... std_vector.i"
+	@echo "... std_vector.s"
 	@echo "... struct.o"
 	@echo "... struct.i"
 	@echo "... struct.s"
